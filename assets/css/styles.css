@@ -167,7 +167,7 @@ img {
 }
 
 .profile__social-link:hover {
-    color: var(--first-color);
+    color: gray;
 }
 
 .profile__info {
