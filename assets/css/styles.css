@@ -240,7 +240,9 @@ button:hover {
     background-color: var(--text-color-light);
 }
 
-
+.whatsapp:hover{
+    color: rgba(51, 255, 0, 0.618);
+}
 
 /*=============== FILTERS TABS ===============*/
 
