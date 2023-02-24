@@ -97,7 +97,6 @@ img {
 }
 
 .grid {
-  background-color: blue;
   display: grid;
   gap: 1.5rem;
 }
