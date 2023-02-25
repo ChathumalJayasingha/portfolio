@@ -44,6 +44,16 @@
   }
 }
 
+@media screen and (min-width: 1968px) {
+    :root {
+      --h2-font-size: 4.5rem;
+      --h3-font-size: 4.25rem;
+      --normal-font-size: 5rem;
+      --small-font-size: 3rem;
+      --smaller-font-size: 3rem;
+    }
+  }
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -91,12 +101,13 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 968px;
+  max-width: 100%;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
 .grid {
+    background-color: aqua;
   display: grid;
   gap: 1.5rem;
 }
@@ -203,6 +214,14 @@ img {
 .profile__buttons-small{
     column-gap: .25rem;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+      float: none;
+      width: 100%;
+    }
+  }
+
 
 /*=============== BUTTONS ===============*/
 
