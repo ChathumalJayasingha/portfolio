@@ -50,7 +50,7 @@
 
                 <div class="profile__buttons">
                     <a href="" class="button" target="_blank" rel="noopener noreferrer">Download CV <i class="ri-download-2-line"></i></a>
-                
+
                     <div class="profile__buttons-small">
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=94760840801&text=Hello Chathumal Jayasinghe" class="button button__small button__gray whatsapp">
                             <i class="ri-whatsapp-line"></i>
@@ -69,20 +69,42 @@
         <main class="main">
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
-
+                <ul class="filter__content">
+                    <button class="filter__button" data-target="#projects">Projects</button>
+                    <button class="filter__button" data-target="#skills">Skills</button>
+                </ul>
                 <div class="filters__sections">
-                    <!--=============== PROJECTS ===============-->
-                    
+                    <div class="projects__content grid" data-content id="projects">
+                        <article class="project__card">
+                            <img src="assets/img/project1.jpg" alt="first project" class="project__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitile">E-Commerce web application</span>
+                                    <h3 class="project__title">Spring boot & Angular</h3>
+                                    <a href="" class="projects__button button button__small"> <i class="ri-link"></i> </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="project__card">
+                            <img src="assets/img/project2.jpg" alt="first project" class="project__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitile">Portfolio</span>
+                                    <h3 class="project__title">HTML ,CSS & Javascript</h3>
+                                    <a href="" class="projects__button button button__small"> <i class="ri-link"></i> </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="skills_content grid" data-content id="skills"></div>
 
-                    <!--=============== SKILLS ===============-->
-                    
                 </div>
             </section>
         </main>
 
         <!--=============== FOOTER ===============-->
         <footer class="footer container">
-            
+
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
