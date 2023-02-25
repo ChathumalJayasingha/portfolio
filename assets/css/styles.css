@@ -107,7 +107,6 @@ img {
 }
 
 .grid {
-    background-color: aqua;
   display: grid;
   gap: 1.5rem;
 }
