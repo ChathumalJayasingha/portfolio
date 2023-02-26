@@ -7,13 +7,14 @@
         <link rel="stylesheet" href="assets/css/styles.css">
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         <meta name="description" content="Portfolio website">
-        <meta name="keywords" content="Chathumal Jayasingha Jayasinghe Software Engineer">
+        <meta name="keywords" content="Chathumal Jayasingha Jayasinghe චතුමාල් ජයසිංහ">
         <meta name="author" content="Chathumal Jayasinghe">
         <title>Chathumal Jayasinghe</title>
     </head>
     <body>
         <!--=============== HEADER PROFILE ===============-->
         <header class="profile container">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
             <div class="profile__container grid">
                 <div class="profile__data">
                     <div class="profile__border">
@@ -50,7 +51,7 @@
 
                 <div class="profile__buttons">
                     <a href="" class="button" target="_blank" rel="noopener noreferrer">Download CV <i class="ri-download-2-line"></i></a>
-                
+
                     <div class="profile__buttons-small">
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=94760840801&text=Hello Chathumal Jayasinghe" class="button button__small button__gray whatsapp">
                             <i class="ri-whatsapp-line"></i>
@@ -69,20 +70,145 @@
         <main class="main">
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
-
+                <ul class="filter__content">
+                    <button class="filter__button filter_tab_active" data-target="#projects">Projects</button>
+                    <button class="filter__button" data-target="#skills">Skills</button>
+                </ul>
                 <div class="filters__sections">
-                    <!--=============== PROJECTS ===============-->
-                    
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="project__card">
+                            <img src="assets/img/project1.jpg" alt="first project" class="project__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitile">E-Commerce web application</span>
+                                    <h3 class="project__title">Spring boot & Angular</h3>
+                                    <a href="" class="projects__button button button__small"> <i class="ri-link"></i> </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="project__card">
+                            <img src="assets/img/project2.jpg" alt="first project" class="project__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitile">Portfolio</span>
+                                    <h3 class="project__title">HTML ,CSS & Javascript</h3>
+                                    <a href="" class="projects__button button button__small"> <i class="ri-link"></i> </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
 
-                    <!--=============== SKILLS ===============-->
-                    
+
+                    <div class="skills_content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend Development</h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">SpringBoot</h1>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">NodeJS</h1>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">Python</h1>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">JSP</h1>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">MYSQL</h1>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">Docker</h1>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend Development</h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">SpringBoot</h1>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">NodeJS</h1>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">Python</h1>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">JSP</h1>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">MYSQL</h1>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h1 class="skills__name">Docker</h1>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
 
         <!--=============== FOOTER ===============-->
         <footer class="footer container">
-            
+            <span class="footer__copy">
+                &#169 Chathumal.com All Rights Received
+            </span>
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
