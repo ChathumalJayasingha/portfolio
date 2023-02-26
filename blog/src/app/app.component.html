@@ -1,1 +1,26 @@
-This is Blog testing
+<div class="main-wrap">
+  <mat-toolbar class="navbar-wrap">
+    <button type="button" (click)="drawer.toggle()" mat-icon-button class="example-icon"  aria-label="Example icon-button with menu icon"  >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="blog-navbar-header">Blog</span>
+    &nbsp;&nbsp;
+
+    <span class="navbar-spacer"></span>
+
+    <button mat-icon-button class="favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  <mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <button mat-raised-button class="blog-navbar-home-button" (click)="goToHome()">Home</button>
+    </mat-drawer>
+  </mat-drawer-container>
+
+
+</div>

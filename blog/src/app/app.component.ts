@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
+
+  constructor() {
+  }
+
+  goToHome() {
+    alert("Hi there");
+  }
 }
+export class SidenavAutosizeExample {
+  showFiller = false;
+}
+
