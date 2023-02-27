@@ -11,8 +11,8 @@ export class AppComponent {
   constructor() {
   }
 
-  goToHome() {
-    alert("Hi there");
+  goTest() {
+
   }
 }
 export class SidenavAutosizeExample {

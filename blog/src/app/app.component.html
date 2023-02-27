@@ -19,7 +19,7 @@
   <mat-drawer-container class="example-container" autosize>
     <router-outlet></router-outlet>
     <mat-drawer #drawer class="example-sidenav" mode="side">
-      <button mat-raised-button class="blog-navbar-home-button" (click)="goToHome()">Home</button>
+      <button mat-raised-button class="blog-navbar-home-button" [routerLink]="['/test']" (click)="goTest()">Test</button>
     </mat-drawer>
   </mat-drawer-container>
 
