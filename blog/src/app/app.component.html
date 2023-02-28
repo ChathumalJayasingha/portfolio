@@ -7,7 +7,9 @@
     &nbsp;&nbsp;
 
     <span class="navbar-spacer"></span>
-
+    <a mat-flat-button href="https://www.chathumal.com/" target="_blank">Portfolio</a> &nbsp;
+    <button mat-raised-button class="blog-navbar-home-button" [routerLink]="['/test']" (click)="goTest()">Test</button> &nbsp;
+    <button mat-raised-button class="blog-navbar-home-button" [routerLink]="['/spring-batch']">Spring-Batch</button>
     <button mat-icon-button class="favorite-icon" aria-label="Example icon-button with heart icon">
       <mat-icon>favorite</mat-icon>
     </button>
@@ -19,7 +21,8 @@
   <mat-drawer-container class="example-container" autosize>
     <router-outlet></router-outlet>
     <mat-drawer #drawer class="example-sidenav" mode="side">
-      <button mat-raised-button class="blog-navbar-home-button" [routerLink]="['/test']" (click)="goTest()">Test</button>
+      <button mat-raised-button class="blog-navbar-home-button" [routerLink]="['/test']" (click)="goTest()">Test</button> &nbsp;
+      <button mat-raised-button class="blog-navbar-home-button" [routerLink]="['/spring-batch']">Spring-Batch</button>
     </mat-drawer>
   </mat-drawer-container>
 

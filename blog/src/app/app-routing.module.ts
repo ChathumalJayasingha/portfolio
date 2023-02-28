@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import {ActivatedRoute, Router, RouterModule, Routes} from '@angular/router';
 import {TestComponent} from "./test/test.component";
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-
+import {SpringBatchComponent} from "./spring-batch/spring-batch.component";
 
 const routes: Routes = [
-  { path: 'test', component:TestComponent }
+  { path: '', component:TestComponent },
+  { path: 'test', component:TestComponent },
+  { path: 'spring-batch', component:SpringBatchComponent },
 ];
 
 @NgModule({

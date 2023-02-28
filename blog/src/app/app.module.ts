@@ -10,11 +10,13 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatSidenavModule} from "@angular/material/sidenav";
 import { TestComponent } from './test/test.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { SpringBatchComponent } from './spring-batch/spring-batch.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    TestComponent,
+    SpringBatchComponent
   ],
   imports: [
     BrowserModule,
