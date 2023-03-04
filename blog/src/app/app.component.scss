@@ -21,6 +21,27 @@
 }
 
 .navbar-wrap{
-  background-color: deepskyblue;
+  background-color: rgba(0, 191, 255, 0.53);
   color: #eeeeee;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-bunch-of-buttons {
+    display: none;
+  }
+}
+
+:root {
+  --bg-color: #CCCCFF;
+  --nav-bg-color: #5D3FD3;
+  --font-family: 'Poppins', sans-serif;
+  --nav-link-hover: #FFEA47;
+  --logo-span-color: #FF5F13;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  height: 100vh;
 }
